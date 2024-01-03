@@ -1,0 +1,79 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-family: Tahoma;
+  font-size: 16px;
+  background-image: url("https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-97395.jpg?w=740&t=st=1699533817~exp=1699534417~hmac=e87329540e9e7bab83b80ad436f0b651846bd5feb5c14b0d1470aa8955fdfd26");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+
+}
+
+h1, p {
+  text-align: center;
+  color: #ffffff;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em; 
+}
+
+fieldset {
+ background-color: rgb(0,25,55);
+ color: #ffffff;
+ border-color: hsl(185, 66%, 51%);
+  
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+
+.inline {
+  width: unset;
+  margin: 1rem 0.5 0 0;
+  vertical-align: middle;
+}
+
+input, select, textarea {
+  margin: 10px 0 0 0;
+  width: 100%; 
+  display: inline-block;
+  border-color: hsl(185, 66%, 51%);
+  font-family: Tahoma;
+  font-size: 14px;
+ 
+}
+
+input[type="radio"] {
+  float: left;
+  clear: none;
+  margin: 2px 5px 0 0;
+ 
+}
+
+input[type="checkbox"] {
+  float: left;
+  clear: none;
+  margin: 2px 5px 0 0;
+  display: inline-block;
+  border-color: hsl(185, 66%, 51%);
+  
+}
+
+input[type="submit"] {
+  background-color: #00bf00;
+  color: #ffffff;
+  height: 2rem;
+  font-family: Tahoma;
+  font-size: 13px;
+  border-color: #00ff00;
+}

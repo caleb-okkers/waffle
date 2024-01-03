@@ -1,0 +1,154 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title"> freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <fieldset>
+        <label class="inline" for="name" id="name-label">Name<input id="name" type="text" placeholder="Enter your name" value="" required></input></label> 
+        <label class="inline" for="email" id="email-label">Email<input id="email" type="email" placeholder="Enter your email"  value="" required></input></label>
+        <label class="inline" for="number" id="number-label">Age (optional)<input id="number" type="number" placeholder="Age" min="10" max="99" value="number"></input></label>
+        <label for="dropdown"  class="inline">Which option best describes your current role?
+          <label for="dropdown">
+            <select id="dropdown">
+             <option>Select current role</option>
+             <option>Student</option>
+             <option>Full-time job</option>
+             <option>Full-time learner</option>
+             <option>Prefer not to say</option>
+             <option>Other</option>
+            </select>
+          </label>
+        </label>
+        <label class="inline">Would you recommend freeCodeCamp to a friend?</label>
+        <label for="definitely"><input id="defintely" class="inline" type="radio" name="recommend" value="1" checked></input>Definitely</label>
+         <label for="maybe"><input id="maybe" class="inline" type="radio" name="recommend" value="2"></input>Maybe</label>
+          <label for="not-sure"><input id="not-sure" class="inline" type="radio" name="recommend" value="3"></input>Not sure</label>
+        
+        <label class="inline" for="favorite-feature">What is your favorite feature of freeCodeCamp?
+          <label for="favorite-feature">
+             <select id="favorite-feature">
+               <option>Select an option</option>
+               <option>Challenges</option>
+               <option>Projects</option>
+               <option>Community</option>
+               <option>Open Source</option>
+             </select>
+          </label>
+        </label>
+        <label class="inline">What would you like to see improved? (Check all that apply)</label>
+        <label for="1"><input type="checkbox" value="1" id="1" class="inline"></input>Front-end Projects</label>
+        <label for="2"><input type="checkbox" value="2" class="inline" id="2"></input>Back-end Projects</label>
+        <label for="3"><input type="checkbox" value="3" class="inline" id="3"></input>Data Visualization</label>
+        <label for="4"><input type="checkbox" value="4" class="inline" id="4"></input>Challenges</label>
+        <label for="5"><input type="checkbox" value="5" class="inline" id="5"></input>Open Source Community</label>
+        <label for="6"><input type="checkbox" value="6" class="inline" id="6"></input>Gitter help rooms</label>
+        <label for="7"><input type="checkbox" value="7" class="inline" id="7"></input>Videos</label>
+        <label for="8"><input type="checkbox" value="8" class="inline" id="8"></input>City Meetups</label>
+        <label for="9"><input type="checkbox" value="9" class="inline" id="9"></input>Wiki</label>
+        <label for ="10"><input type="checkbox" value="10" class="inline" id="10"></input>Forum</label>
+        <label for="11"><input type="checkbox" value="11" class="inline" id="11"></input>Additional Courses</label>
+        <label class="inline" for="suggestions">Any comments or suggestions?
+
+<textarea placeholder="Enter your comment here..." id="suggestions" name="suggestions" rows="3" cols="30"></textarea></label>
+         <input type="submit" value="submit" id="submit"></input>
+      </fieldset>  
+    </form>
+  </body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-family: Tahoma;
+  font-size: 16px;
+  background-image: url("https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-97395.jpg?w=740&t=st=1699533817~exp=1699534417~hmac=e87329540e9e7bab83b80ad436f0b651846bd5feb5c14b0d1470aa8955fdfd26");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+
+}
+
+h1, p {
+  text-align: center;
+  color: #ffffff;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em; 
+}
+
+fieldset {
+ background-color: rgb(0,25,55);
+ color: ffffff;
+ border-color: hsl(185, 66%, 51%);
+  
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+
+.inline {
+  width: unset;
+  margin: 1rem 0.5 0 0;
+  vertical-align: middle;
+}
+
+input, select, textarea {
+  margin: 10px 0 0 0;
+  width: 100%; 
+  display: inline-block;
+  border-color: hsl(185, 66%, 51%);
+  font-family: Tahoma;
+  font-size: 14px;
+ 
+}
+
+input[type="radio"] {
+  float: left;
+  clear: none;
+  margin: 2px 5px 0 0;
+ 
+}
+
+input[type="checkbox"] {
+  float: left;
+  clear: none;
+  margin: 2px 5px 0 0;
+  display: inline-block;
+  border-color: hsl(185, 66%, 51%);
+  
+}
+
+input[type="submit"] {
+  background-color: #00bf00;
+  color: #ffffff;
+  height: 2rem;
+  font-family: Tahoma;
+  font-size: 13px;
+  border-color: #00ff00;
+}
+
+** end of undefined **
+
